@@ -10,10 +10,11 @@ internal class Program
         {
             FullName(null, "last");
             dummy();
-            // TODO: this method needs implement
+            // TODO: needs implement
         }
         catch (Exception ex)
         {
+            //Exception
             Console.WriteLine($"in catch exception:{ex.Message}");
         }
         finally
