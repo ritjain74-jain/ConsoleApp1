@@ -10,7 +10,7 @@ internal class Program
         {
             FullName(null, "last");
             dummy();
-            // TODO: this method needs implement
+            // TODO: this method needs to be implemented
         }
         catch (Exception ex)
         {
