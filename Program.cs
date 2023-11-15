@@ -17,7 +17,7 @@ internal class Program
         }
         finally
         {
-            Console.WriteLine("i'm in finally exception");
+            Console.WriteLine("finally exception");
         }
 
 
