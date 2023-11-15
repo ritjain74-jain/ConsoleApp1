@@ -8,17 +8,16 @@ internal class Program
         Console.WriteLine("Hello, World!123");
         try
         {
-            //fullname
             FullName(null, "last");
             dummy();
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"in catch exception: {ex.Message}");
+            Console.WriteLine($"in catch exception:{ex.Message}");
         }
         finally
         {
-            Console.WriteLine("in finally exception");
+            Console.WriteLine("i'm in finally exception");
         }
 
 
