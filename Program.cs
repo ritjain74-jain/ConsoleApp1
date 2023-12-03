@@ -15,10 +15,7 @@ internal class Program
         catch (Exception ex)
         {
 <<<<<<< HEAD
-            //Exception tewstsdf
-=======
-            //Exception is changed
->>>>>>> 04a8630cae9f091a554c3750f32368546aead4d3
+            //Exception tewstsd
             Console.WriteLine($"in catch exception:{ex.Message}");
         }
         finally
