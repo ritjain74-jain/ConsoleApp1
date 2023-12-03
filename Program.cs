@@ -14,7 +14,6 @@ internal class Program
         }
         catch (Exception ex)
         {
-<<<<<<< HEAD
             //Exception tewstsd
             Console.WriteLine($"in catch exception:{ex.Message}");
         }
