@@ -14,11 +14,12 @@ internal class Program
         }
         catch (Exception ex)
         {
-            //Exception
+            //Exception is changed
             Console.WriteLine($"in catch exception:{ex.Message}");
         }
         finally
         {
+            //here u go
             Console.WriteLine("finally exception");
         }
 
